@@ -28,7 +28,7 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Yahoo {message.from_user.first_name} -san✨\n
+        f"""<b>Yahoo {message.from_user.first_name} -san✨, Watashi wa [Siesta](https://telegra.ph/file/7b8ddecdb62dce63a1150.jpg)\n
 Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
 Saya Memiliki Banyak Fitur Seperti :
 • Memutar Musik.
